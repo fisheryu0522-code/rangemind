@@ -8,6 +8,8 @@
 
 ## 项目及报告书
 
+- [项目演示视频（B站）](https://www.bilibili.com/video/BV1hRaW6vEny/)：约 4 分 51 秒，中文字幕，展示当前 Windows / RTX 4090 环境下的研究与训练流程。
+- [开发征文（B站）](https://www.bilibili.com/opus/1253495546942849032)：项目开发过程、产品思路与教学设计。
 - [项目技术与教学报告](docs/REPORT.md)：训练方法、产品结构、数学边界和已有软件参考。
 - [原安装版验证摘要](docs/verification-summary.json)：测试统计与证据范围；源码包另做启动和基础测试。
 - [开源、第三方和数据说明](THIRD-PARTY-NOTICES.md)。
