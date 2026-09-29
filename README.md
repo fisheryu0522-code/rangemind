@@ -4,7 +4,7 @@
 
 面向已有现金局基础的玩家，观局把局面求解、范围与组合数研究、中文解释和长期训练记录放在同一个本地工作台里。研究的目标不仅是获得一个动作答案，而是能够说明：哪些组合支持这个动作、对手加注后会怎样、改变一个假设后结论是否仍成立，以及怎样把结论转化为下一次实战的可检验判断。
 
-> **提交与硬件说明：**本项目用于第三届 NVIDIA DGX Spark Hackathon 项目展示。当前完成验证的开发和演示环境是 Windows、Intel i9-14900KF、64 GB 内存、NVIDIA RTX 4090 24 GB。**尚未在 DGX Spark 上运行或完成性能测试**；DGX Spark 适配属于后续工作，不把 RTX 4090 的测试结果当作 DGX Spark 成绩。
+> **提交与硬件说明：**本项目用于第三届 NVIDIA DGX Spark Hackathon 项目展示。开发和演示环境是 Windows、Intel i9-14900KF、64 GB 内存、NVIDIA RTX 4090 24 GB。**根据项目团队最新确认，当前版本已在 NVIDIA DGX Spark 完成全部功能测试并通过。** 该功能测试状态依据团队确认，并非本机重新运行的结果。本文既有性能数字来自 RTX 4090 测试环境；DGX Spark 性能基准未在本文报告。
 
 ## 项目及报告书
 
@@ -13,7 +13,7 @@
 - [项目技术与教学报告](docs/REPORT.md)：训练方法、产品结构、数学边界和已有软件参考。
 - [原安装版验证摘要](docs/verification-summary.json)：测试统计与证据范围；源码包另做启动和基础测试。
 - [开源、第三方和数据说明](THIRD-PARTY-NOTICES.md)。
-- [DGX Spark 适配计划](docs/DGX-SPARK.md)。
+- [DGX Spark 部署与测试说明](docs/DGX-SPARK.md)。
 - [源码安装说明](docs/BUILD.md)。
 
 ## 主要功能
