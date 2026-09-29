@@ -1,0 +1,27 @@
+# Runtime records, solved trees and personal training history
+/data/
+*.log
+*.pid
+*.tmp
+.env
+.env.*
+!.env.example
+node_modules/
+__pycache__/
+*.pyc
+# Build products and separately installed dependencies
+build/
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.a
+*.lib
+*.ptx
+*.gguf
+*.safetensors
+/engines/local-coach/
+/engines/TexasSolverGPU/
+/engines/TexasSolverCPU/

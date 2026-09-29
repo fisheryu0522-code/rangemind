@@ -1,0 +1,22 @@
+{
+  "scope": "Private Windows RTX 4090 installation before source-only packaging; not DGX Spark validation",
+  "originalSuite": {
+    "total": 434,
+    "passed": 419,
+    "failed": 0,
+    "skipped": 15
+  },
+  "gpuSuite": {
+    "passed": 29,
+    "failed": 0,
+    "note": "Overlaps the original suite; do not sum as distinct tests"
+  },
+  "sourceRelease": "See README for independent source-only smoke checks; native tests require local builds and dependencies",
+  "sourceOnlyChecks": {
+    "passed": 49,
+    "failed": 0,
+    "skipped": 0,
+    "scope": "Node-only core tests including hardware discovery; no native solver installed",
+    "smoke": "Passed ten HTTP routes, 27 synthetic unsolved presets, proprietary-preset absence, hostile Origin rejection and saving a synthetic range"
+  }
+}

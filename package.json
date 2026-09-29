@@ -1,0 +1,15 @@
+{
+  "name": "rangemind",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "license": "AGPL-3.0-only",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:core": "node --test tests/poker.test.mjs tests/scenario.test.mjs tests/live-recorder.test.mjs tests/range-library.test.mjs tests/hardware.test.mjs"
+  }
+}
